@@ -1,14 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justin E. Oldmixon</title>
 </head>
+
 <body>
-    <h1>
-        GitHub Page for Justin E. Oldmixon
-    </h1>
-    
+    <!-- navigation -->
+    <header>
+        <h1>
+            Portfolio
+        </h1>
+        <nav>
+            <!--List elemts: About me // Work // Contact Me // Resume -->
+            <ul>
+                <!--Listing elements as <a href="#About ME"> About Me </a> and sequential-->
+                <li>
+                    <!--Anchor elements each listed in own list tag -->
+                    <a href="#about-meid">About Me</a>
+                </li>
+                <li>
+                    <!--Anchor elements each listed in own list tag -->
+                    <a href="#Workid">Work</a>
+                </li>
+                <li>
+                    <!--Anchor elements each listed in own list tag -->
+                    <a href="#contact-meid">Contact Me</a>
+                </li>
+                <li>
+                    <!--Anchor element Link to file for Resume download (lookup) -->
+                    <a href="./assets/images/resume.pdf">Resumè</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Hero section "Cool subtitile here" Position: bottom right of header -->
+    <section class="intro">
+        <!--Could add contact form here later-->
+        <div class="intro-name">
+            <h2>
+                Justin E. Oldmixon
+            </h2>
+            <h3>
+                Web Developer / Photographer / Paramedic / World Traveler
+            </h3>
+        </div>
+    </section>
+
+    <!--inline box -->
+
+    <!-- About Me is all text with a split for "ABOUT ME" on left with divide -->
+    <section class="aboutme" id="about-meid">
+
+        <h2>About <br /> Me</h2>
+        <div>
+            <p>
+                Justin E. Oldmixon currently studying web development. <br /> Paramedic <br /> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste aliquid architecto maxime dolor accusamus ex ut repudiandae repellendus sapiente nobis laborum
+                velit laudantium consequuntur deserunt autem aspernatur, dolorem, esse nam.
+            </p>
+            <br />
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. At vel assumenda quos expedita inventore obcaecati cumque incidunt voluptates odit ut corrupti magnam fuga debitis eos, esse laborum harum distinctio eveniet?
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Work Section -->
+    <section id="Workid" class="work">
+        <h2>Work</h2>
+
+        <div class="work-grid-container">
+            <a class="work-grid-item" href="https://jeoldmixon.github.io/run-buddy/">
+                <div class="run-buddy">
+                    Run Buddy</div>
+            </a>
+            <a class="work-grid-item" href="https://jeoldmixon.github.io/HoriseonSEO1/">
+                <div class="Horiseon">
+                    Horison</div>
+            </a>
+            <div class="work-grid-item Photography">Photography</div>
+            <div class="work-grid-item Florence">Florence</div>
+            <div class="work-grid-item Lion">Lion</div>
+        </div>
+
+
+    </section>
+
+
+    <!--Contact Me-->
+
+    <footer>
+        <section id="contact-meid" class="contactme">
+            <h2>
+                Contact <br /> Me
+            </h2>
+
+            <div class="contactrefs">
+                <span><a href="tel:+15049573400"> <img src="./assets/images/Phone.png" width="50"></a></span>
+                <span><a href="sms:+15049573400"> <img src="./assets/images/texting.png" width="50"></a></span>
+                <span><a href="mailto:jeoldmixon@yahoo.com"><img src="./assets/images/Email.png" width="50"></a></span>
+                <span><a href="https://github.com/jeoldmixon"><img src="./assets/images/GitHub Icon.png" width="50"></a></span>
+                <span><a href="https://instagram.com/jeoldmixon">
+                    <img src="./assets/images/IGIcon.png" width="50">
+                </a></span>
+                <span><a href="https://www.facebook.com/jeoldmixonPics/"><img src="./assets/images/FBIcon.png" width="40">
+                </a></span>
+                <span><a href="https://www.linkedin.com/in/justin-oldmixon-76158612/"><img src="./assets/images/LI-In-Bug.png" width="50">
+                </a></span>
+                <span><a href="https://linktr.ee/jeoldmixon"><img src="./assets/images/Linktree.png" width="80">
+                </a></span>
+            </div>
+
+        </section>
+
+
+    </footer>
+
+
+
+
 </body>
+
 </html>
