@@ -5,6 +5,7 @@
 }
 
 :root {
+    font-size: 16px;
     --blue: rgb(16, 0, 238);
     --yellow: #fce138;
     --dark-yellow: #fddb00;
@@ -18,7 +19,7 @@ body {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 1rem;
     margin-right: 2rem;
 }
 
@@ -80,19 +81,21 @@ header h1 {
 /* Intro Style */
 
 .intro {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0 2rem 2rem 0;
     background-image: url("../images/plane.jpg");
+    background-position: center;
     height: 600px;
-    /* background-size: cover; */
-    background-size: 100%;
+    background-size: cover;
+    /* background-size: 100%; */
     position: relative;
     background-repeat: no-repeat;
 }
 
 .intro-name {
     color: var(--red);
-    margin-top: 500px;
-    margin-right: 5%;
-    float: right;
 }
 
 .center {
@@ -201,14 +204,21 @@ header h1 {
 
 .Florence {
     background-image: url("../images/Florence.JPG");
-    background-size: 100% 100%;
-    background-position: 0;
+    background-size: 100%;
+    background-position: 50% 75%;
     background-repeat: no-repeat;
 }
 
 .Lion {
     background-image: url("../images/Lion.JPG");
     background-size: 100% 100%;
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+}
+
+.Barkeep {
+    background-image: url("../images/barkeep.png");
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -250,10 +260,22 @@ header h1 {
     align-self: center;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 600px) {
+     :root {
+        font-size: 12px;
+    }
     body {
         color: black;
         margin: 10px;
+    }
+    .aboutme {
+        background-color: white;
+    }
+    .aboutme h2 {
+        background-color: white;
+    }
+    .aboutme div {
+        background-color: white;
     }
 }
 
