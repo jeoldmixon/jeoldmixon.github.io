@@ -34,15 +34,16 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following animation demonstrates the application functionality:
 
-![portfolio demo](./02-Challenge/Assets/02-advanced-css-homework-demo.gif)
+![portfolio demo](./assets/images/Overview.png)
 
 ## Review
 
 You are required to submit the following for review:
 
-* The URL of the deployed application.
+- The URL of the deployed application.
 
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README describing the project.
+- The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README describing the project.
 
-- - -
+---
+
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
