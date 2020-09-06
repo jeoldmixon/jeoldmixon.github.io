@@ -1,284 +1,283 @@
 * {
-    margin: 0;
-    margin-bottom: 20px;
-    padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
 }
 
 :root {
-    font-size: 16px;
-    --blue: rgb(16, 0, 238);
-    --yellow: #fce138;
-    --dark-yellow: #fddb00;
-    --red: #d81d1d;
-    --pink: #ff006e;
+  font-size: 16px;
+  --blue: rgb(16, 0, 238);
+  --yellow: #fce138;
+  --dark-yellow: #fddb00;
+  --red: #d81d1d;
+  --pink: #ff006e;
 }
 
 body {
-    color: var(--blue);
-    font-family: Arial, Helvetica, sans-serif;
+  color: var(--blue);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
-    font-size: 1rem;
-    margin-right: 2rem;
+  font-size: 1rem;
+  margin-right: 2rem;
 }
-
 
 /* Header Style */
 
 header {
-    padding: 0px;
-    background-color: var(--blue);
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  padding: 0px;
+  background-color: var(--blue);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header h1 {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: darkviolet;
-    padding-left: 20px;
-    padding-right: 5px;
-    font-weight: bold;
-    margin: 0;
-    font-size: 36px;
-    color: var(--dark-yellow);
+  font-family: "Courier New", Courier, monospace;
+  background-color: darkviolet;
+  padding-left: 20px;
+  padding-right: 5px;
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: var(--dark-yellow);
 }
 
 header a {
-    color: var(--dark-yellow);
-    border-bottom: 4px solid var(--yellow);
-    text-decoration: none;
+  color: var(--dark-yellow);
+  border-bottom: 4px solid var(--yellow);
+  text-decoration: none;
 }
 
 header nav {
-    margin: 7px 0;
+  margin: 7px 0;
 }
 
 header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 1.5vw;
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 1.5vw;
 }
 
 header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: var(--dark-yellow);
-    margin: 0;
-    display: inline;
+  font-weight: bold;
+  font-size: 36px;
+  color: var(--dark-yellow);
+  margin: 0;
+  display: inline;
 }
-
 
 /* Intro Style */
 
 .intro {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    padding: 0 2rem 2rem 0;
-    background-image: url("../images/plane.jpg");
-    background-position: center;
-    height: 600px;
-    background-size: cover;
-    /* background-size: 100%; */
-    position: relative;
-    background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0 2rem 2rem 0;
+  background-image: url("../images/plane.jpg");
+  background-position: center;
+  height: 600px;
+  background-size: cover;
+  /* background-size: 100%; */
+  position: relative;
+  background-repeat: no-repeat;
 }
 
 .intro-name {
-    color: var(--red);
+  color: var(--red);
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
-
 
 /* About Me Section */
 
 .aboutme {
-    background-color: chartreuse;
-    margin-top: 5%;
-    display: flex;
-    flex-direction: row;
+  background-color: chartreuse;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
 }
 
 .aboutme h2 {
-    background-color: chartreuse;
-    text-align: right;
-    flex: 0 0 20%;
-    /* Note to self to ask for TA explaination */
-    border-right: 4px solid black;
-    padding-right: 15px;
+  background-color: chartreuse;
+  text-align: right;
+  flex: 0 0 20%;
+  /* Note to self to ask for TA explaination */
+  border-right: 4px solid black;
+  padding-right: 15px;
 }
 
 .aboutme div {
-    flex: 0 0 75%;
-    background-color: chartreuse;
+  flex: 0 0 75%;
+  background-color: chartreuse;
 }
-
 
 /* Work Section */
 
 .work {
-    background-color: darkorange;
-    margin-top: 5%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    /* flex-wrap: wrap; */
-    /* align-items: stretch; */
-    justify-content: space-around;
+  background-color: darkorange;
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  /* align-items: stretch; */
+  justify-content: space-around;
 }
 
 .work h2 {
-    text-align: right;
-    flex: 0 0 20%;
-    border-right: 4px solid black;
-    padding-right: 15px;
+  text-align: right;
+  flex: 0 0 20%;
+  border-right: 4px solid black;
+  padding-right: 15px;
 }
 
 .work-grid-container {
-    color: var(--red);
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, minmax(150px, 1fr));
-    padding: 15px;
-    grid-gap: 20px;
-    grid-auto-flow: dense;
+  color: var(--red);
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, minmax(150px, 1fr));
+  padding: 15px;
+  grid-gap: 20px;
+  grid-auto-flow: dense;
 }
 
 .work-grid-item:first-child {
-    display: block;
-    grid-column: 1 / span 2;
-    grid-row: 1 / span 2;
+  display: block;
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
 }
 
 .work-grid-item {
-    /* padding: 15px 0; */
-    border: 3px solid var(--blue);
-    display: flex;
+  /* padding: 15px 0; */
+  border: 3px solid var(--blue);
+  display: flex;
 }
 
 .work-grid-container a div,
 .work-grid-container a {
-    width: 100%;
-    height: 100%;
-    color: var(--red);
+  width: 100%;
+  height: 100%;
+  color: var(--red);
 }
 
 .run-buddy {
-    background-image: url("../images/Run-Buddy.png");
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("../images/Run-Buddy.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .Horiseon {
-    background-image: url("../images/Hoison.png");
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("../images/Hoison.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-
+.gitDevJob {
+  background-image: url("../images/gitDevJob.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .Photography {
-    background-image: url("../images/Photography.JPG");
-    background-size: 100% 100%;
-    /* background-position: 100%; */
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("../images/Photography.JPG");
+  background-size: 100% 100%;
+  /* background-position: 100%; */
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .Florence {
-    background-image: url("../images/Florence.JPG");
-    background-size: 100%;
-    background-position: 50% 75%;
-    background-repeat: no-repeat;
+  background-image: url("../images/Florence.JPG");
+  background-size: 100%;
+  background-position: 50% 75%;
+  background-repeat: no-repeat;
 }
 
 .Lion {
-    background-image: url("../images/Lion.JPG");
-    background-size: 100% 100%;
-    background-position: 50% 75%;
-    background-repeat: no-repeat;
+  background-image: url("../images/Lion.JPG");
+  background-size: 100% 100%;
+  background-position: 50% 75%;
+  background-repeat: no-repeat;
 }
 
 .Barkeep {
-    background-image: url("../images/barkeep.png");
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("../images/barkeep.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .work-grid-item:hover {
-    cursor: pointer;
-    /* How do I do this? */
+  cursor: pointer;
+  /* How do I do this? */
 }
-
 
 /* Contact Me Section */
 
 .contactme {
-    background-color: var(--pink);
-    margin-top: 5%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
+  background-color: var(--pink);
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .contactme h2 {
-    text-align: right;
-    flex: 0 0 20%;
-    border-right: 4px solid black;
-    padding-right: 15px;
+  text-align: right;
+  flex: 0 0 20%;
+  border-right: 4px solid black;
+  padding-right: 15px;
 }
 
 .contactrefs {
-    background-color: var(--pink);
-    align-items: flex-start;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  background-color: var(--pink);
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .contactrefs span {
-    padding: 25px;
-    align-self: center;
+  padding: 25px;
+  align-self: center;
 }
 
 @media screen and (max-width: 600px) {
-     :root {
-        font-size: 12px;
-    }
-    body {
-        color: black;
-        margin: 10px;
-    }
-    .aboutme {
-        background-color: white;
-    }
-    .aboutme h2 {
-        background-color: white;
-    }
-    .aboutme div {
-        background-color: white;
-    }
+  :root {
+    font-size: 12px;
+  }
+  body {
+    color: black;
+    margin: 10px;
+  }
+  .aboutme {
+    background-color: white;
+  }
+  .aboutme h2 {
+    background-color: white;
+  }
+  .aboutme div {
+    background-color: white;
+  }
 }
-
 
 /*
 
